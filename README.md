@@ -26,3 +26,30 @@ Dynamic Array
 `remove()` : `Removes the first item with the specified value`
 `reverse()`: `Reverses the order of the list`
 `sort()` : `Sorts the list`
+
+## Address of an element in 1D arrray:
+
+    arr[i] = Base address + (i - lower Bound of an index) * size of an element
+
+    lower bound -> by default 0
+
+## 2D arrays
+
+     _            _
+    | 2     4    6 |
+    | 8     10   12|
+    | 14    17   20|
+    |_            _|
+
+### Storing 2D in 1D array
+
+    - Row major form -> Row wise
+    - Column major form -> Column wise
+
+### Address of element in 2D Row major form
+
+loc (arr[i][j]) = Base address + [(i - Lower bound row) * number of columns + (j - lower bound column)]\*size of each element
+
+### Address of element in 2D Column major form
+
+loc (arr[i][j]) = Base address +[(j - lower bound column) * number of rows + (i - Lower bound row)]\*size of each element
