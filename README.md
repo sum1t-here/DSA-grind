@@ -63,3 +63,35 @@ loc (arr[i][j]) = Base address + [(i - Lower bound row) * number of columns + (j
 ### Address of element in 2D Column major form
 
 loc (arr[i][j]) = Base address +[(j - lower bound column) * number of rows + (i - Lower bound row)]\*size of each element
+
+# Sorting algorithm
+
+Broadly classified into two types:
+
+- comparision based
+
+  - Selection Sort
+  - Bubble Sort
+  - Quick Sort
+  - Merge Sort
+  - Heap Sort
+
+- non-comparision based
+  - Count Sort
+  - Radix Sort
+  - Bucket Sort
+
+## Stable and unstable sorting algorithm
+
+Stable: Relative order should be maintained after sorting algorithms
+
+Unstable:
+
+- Quick sort
+- Heap sort
+- Selection sort
+
+## Inplace and outplace sorting algorithm
+
+Inplace: Not using extra space to sort
+Outplace: Using extra space (Merge sort)
